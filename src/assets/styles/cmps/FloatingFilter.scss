@@ -1,0 +1,206 @@
+.v-popper {
+    display: inline-block;
+
+}
+
+.filter-modal {
+
+    background-color: $clr2;
+    border: 1px solid black;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, .14);
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 8px;
+    min-height: 150px;
+    min-width: 250px;
+    z-index: 100;
+    border: 1px solid #dadbdd;
+}
+
+.filter-mode {
+
+    background-color: $clr2;
+    border: 1px solid #dadbdd;
+    border-radius: rem(4px);
+    box-shadow: 0 rem(12px) rem(18px) rgba(0, 0, 0, .14);
+    color: $clr3;
+    font-size: 14px;
+    min-height: rem(150px);
+    top: 100%;
+    z-index: 100;
+}
+
+.filter-btn {
+    margin-left: 0;
+    font: 400 16px/24px Macan-regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    border: 1px solid #e4e5e7;
+    border-radius: rem(8px);
+    box-sizing: border-box;
+    color: #222325;
+    background-color: $clr2;
+    line-height: rem(24px);
+    min-height: rem(48px);
+    min-width: rem(50px);
+    padding: rem(12px) rem(16px);
+    -webkit-transition: border-color .12s cubic-bezier(.215, .61, .355, 1);
+    -o-transition: border-color .12s cubic-bezier(.215, .61, .355, 1);
+    transition: border-color .12s cubic-bezier(.215, .61, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.filter-btn:hover {
+
+    border: 1px solid rgb(34, 35, 37);
+    ;
+}
+
+.v-popper__wrapper {
+    width: 100%;
+}
+
+.delivery {
+    width: rem(260px);
+    height: rem(232px);
+    color: $clr3;
+    font-size: rem(14px);
+    line-height: rem(22px);
+    overflow-y: scroll;
+    padding: rem(12px);
+    font: 400 16px/24px Macan-regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.budget-modal {
+    display: flex;
+    height: rem(127px);
+    justify-content: space-evenly;
+    width: rem(300px);
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.budget-modal>* {
+    width: rem(100px);
+}
+
+.min-price,
+.max-price {
+    width: rem(120px);
+    height: rem(40px);
+    border: 1px solid black;
+    padding: rem(8px);
+}
+
+.filters-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e4e5e7;
+    padding: 16px rem(24px);
+}
+
+.clear {
+    border: none;
+    line-height: rem(24px);
+    padding: 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: $clr2;
+    color: gray;
+    font: 400 16px/24px Macan-regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.apply {
+    border: 1px solid transparent;
+    border-radius: rem(4px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: rem(16px);
+    font-weight: 600;
+    line-height: 100%;
+    padding: 12px rem(24px);
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: 70ms cubic-bezier(.75, 0, .25, 1);
+    -o-transition: 70ms cubic-bezier(.75, 0, .25, 1);
+    transition: 70ms cubic-bezier(.75, 0, .25, 1);
+    background-color: #222325;
+}
+
+.apply:hover {
+    background-color: #404145;
+}
+
+
+.v-popper :hover {
+    cursor: pointer;
+}
+
+.delivery-input {
+    height: rem(20px);
+    width: rem(20px);
+    margin: rem(8px);
+}
+
+.delivery-option {
+    font-size: rem(14px);
+    font-family: macan-bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: rem(10px);
+}
+
+.sorting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding: rem(16px);
+
+}
+
+.sort-btn {
+    margin: 0;
+    padding: 0;
+    background-color: $clr2;
+    color: rgb(98, 100, 106);
+    font-family: Macan-regular;
+    font-size: rem(16px);
+}
+
+.sort-modal {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    >* {
+        margin: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+}
+
+
+.count {
+    color: $clr4;
+    font-size: rem(14px);
+    font-weight: 600;
+    line-height: rem(22px);
+    padding-right: rem(10px);
+}
+
+.sorting-txt {
+    color: black;
+    font-weight: bolder;
+    margin: px;
+}
+

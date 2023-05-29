@@ -1,0 +1,36 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/typography";
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+@import "basics/links";
+@import "basics/forms";
+
+// Views
+@import "views/AppHome";
+@import "views/UserProfile";
+@import "views/LoginSignup";
+
+// Components
+@import "cmps/AppHeader";
+@import "cmps/CategoriesList";
+@import "cmps/VideoSection";
+@import "cmps/AppFooter";
+@import "cmps/UserMsg";
+@import "cmps/ReviewList";
+@import "cmps/GigList";
+@import "cmps/GigExplore";
+@import "cmps/GigPreview";
+@import "cmps/GigDeatils/GigDeatils.scss";
+@import "cmps/GigFilter";
+@import "cmps/FloatingFilter";
+@import "cmps/Payment.scss";
+@import "cmps/BecomeSeller.scss";
+@import "cmps/GigEdit.scss";
+@import "cmps/SellerOrders.scss";
+@import "cmps/UserOrders.scss";

@@ -1,0 +1,41 @@
+// Breakpoints
+
+
+$paddingLayout: 20px;
+
+$mobile-breakpoint: 460px; // 600
+$narrow-breakpoint: 720px; // 900
+$normal-breakpoint: 960px; // 1160
+$wide-breakpoint: 1400px; // 1160
+
+$p-mobile-breakpoint: 2 * $paddingLayout + $mobile-breakpoint; // 600
+$p-narrow-breakpoint: 2 * $paddingLayout + $narrow-breakpoint; // 900
+$p-normal-breakpoint: 2 * $paddingLayout + $normal-breakpoint; // 1160
+$p-wide-breakpoint: 2 * $paddingLayout + $wide-breakpoint; // 1160
+
+
+
+//  Colors fiver:
+
+$clr-4: #e4e1e1;
+$clr-3: #ffffff00;
+$clr-2: #f1fdf7;
+$clr-1: #188652;
+$clr0: #1dbf73;
+$clr1: #62646a;
+$clr2: #ffffff;
+$clr3: #404145;
+$clr4: #74767e;
+$clr5 :#222325;
+$clr6: #b5b6ba;
+$clr7: #1e1692;
+$clr8: #ffbe5b;
+$clr9: #95979d;
+$clr10: #fafafa;
+$clr11: #c5c6c9;
+$clr12: #dadbdd;
+$clr13: #404145;
+$clr14: #dadbdd;
+$clr15: #e4e5e7;
+$clr16: #446ee7;
+$clr17: #404145;

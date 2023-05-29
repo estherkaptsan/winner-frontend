@@ -1,0 +1,134 @@
+// //HEADER
+// .step-header {
+//     border-bottom: 1px solid #e4e5e7;
+//     padding-top: 40px;
+
+//     .step-h {
+//         color: #62646a;
+//         font-size: 32px;
+//         line-height: 120%;
+//         margin-bottom: 12px;
+//     }
+
+//     p {
+//         color: #95979d;
+//         width: 475px;
+//         font-size: 15px;
+//         line-height: 23px;
+//         padding: 5px 20px 0 0;
+//         display: block;
+//     }
+// }
+
+
+.seller-register {
+    grid-template-columns: 32px 1fr 32px;
+    padding-bottom: rem(70px);
+    display: grid;
+
+    .becomseller-form {
+        grid-column: 2;
+        width: rem(770px);
+        height: fit-content;
+        border: rem(1px) solid var(--yro5245);
+        padding: rem(30px);
+        margin: 0 auto;
+
+
+        div {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 50px;
+
+            label {
+                margin-bottom: 0;
+
+
+            }
+        }
+
+
+        input {
+            height: 50px;
+            padding: 10px;
+            width: -webkit-fill-available;
+            font-size: 1rem;
+            font-family: Macan-Regular;
+        }
+
+        label {
+            display: flex;
+            gap: rem(20px);
+            margin-bottom: rem(50px);
+
+            input {
+                color: #404145;
+                border: 1px solid rgba(0, 0, 0, .274);
+                border-radius: 4px;
+            }
+
+            textarea {
+                color: #404145;
+                border: 1px solid rgba(0, 0, 0, .274);
+                border-radius: 4px;
+
+            }
+        }
+
+
+        span {
+            width: rem(200px);
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            font-weight: 600;
+            color: #404145;
+            padding-top: rem(10px);
+
+            p {
+                margin-top: rem(10px);
+                font-size: .9rem;
+                color: #828385;
+                font-family: Macan-Regular;
+                font-weight: 400;
+                line-height: rem(21px);
+            }
+        }
+
+        textarea {
+            width: 100%;
+            /* height: 217px; */
+            padding: 10px;
+            font-family: Macan-Regular;
+            font-size: 1rem;
+            line-height: 21px;
+        }
+    }
+
+    .btns {
+        width: 770px;
+        margin: 20px auto;
+        grid-column: 2;
+    }
+}
+
+.img-profile-uploader {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 12em;
+    overflow: hidden;
+    cursor: pointer;
+
+    .img-container {
+        width: 100%;
+        height: 100%;
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+    }
+}

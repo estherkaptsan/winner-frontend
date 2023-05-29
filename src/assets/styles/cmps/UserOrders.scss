@@ -1,0 +1,54 @@
+.card-orders {
+   article{
+       width: 457px;
+   }
+    img.user-img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .user-gig img{ 
+        width: 300px;
+        height: 215px;
+    }
+    
+
+    div {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        >* {
+            margin: 10px;
+        }
+    }
+}
+.tabs-orders {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.tabs-orders {
+    display: flex;
+    gap: 26px;
+}
+
+.user-gig-img {
+    width: 256px;
+    height: 155px;
+}
+
+p span{
+    font-size: 15px;
+}
+.progress {
+    color: #ffbe5b;
+}
+.completed {
+    background-color: none;
+    color: #1dbf73;
+}
+.rejected {
+    color: #c43333;
+}
+.gray{
+    color: gray;
+}

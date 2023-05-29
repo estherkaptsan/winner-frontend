@@ -1,0 +1,126 @@
+// ************** Order SECTION *************
+.package-container {
+    top: 100px;
+    width: 35%;
+    background-color: #fff;
+    position: sticky;
+    align-self: flex-start;
+    overflow-y: auto;
+    font-family: Macan;
+
+    button {
+        border: rem(1px) solid transparent;
+        border-radius: 0.25em;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: inherit;
+        line-height: 100%;
+        padding: 0.75em 1.5em;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        transition: 70ms cubic-bezier(.75, 0, .25, 1);
+        cursor: pointer;
+    }
+
+    svg {
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+
+    .gig-package {
+
+        .contact-seller {
+            padding: rem(24px);
+            background-color: $clr10;
+
+            button {
+                margin: 0;
+                background: none;
+                border-color: currentColor;
+                color: $clr3;
+            }
+        }
+
+        .additional-info {
+            align-items: center;
+            font-size: .875rem;
+            color: #62646a;
+            font-weight: 600;
+            margin-block-end: rem(8px);
+
+            p {
+                margin-inline-start: rem(8px);
+                line-height: 1.5714285714em;
+                margin: 0;
+                padding: 0 0 0 rem(8px)
+            }
+
+            .revisions-wrapper {
+                margin-inline-start: rem(16px);
+            }
+        }
+
+        .features {
+            margin-block-end: 2em;
+
+            >li {
+                display: flex;
+                align-items: center;
+                font-size: .875rem;
+                color: $clr9;
+                font-weight: 400;
+                line-height: 1.7142857143em;
+                font-family: macan-regular;
+                >span {
+                    padding-inline-end: rem(12px);
+                }
+            }
+        }
+    }
+
+    .package-content {
+        padding: 2em 1.5em;
+        border: rem(1px) solid $clr12;
+        margin-block-end: rem(16px);
+
+        .price {
+            line-height: 0;
+            font-size: rem(20px);
+        }
+
+        .header {
+            margin-block-end: rem(18px);
+            min-height: rem(48px);
+        }
+
+        .title {
+            font-size: 1rem;
+            line-height: 1.5em;
+            color: $clr13;
+        }
+
+        >p {
+            font-size: .875rem;
+            min-height: rem(63px);
+            margin-block-end: rem(10px);
+            line-height: 140%;
+            font-weight: 500;
+            color: $clr1;
+        }
+        
+        .continue-btn {
+            background-color: #1dbf73;
+            color: #fff;
+            margin: 0;
+
+            span {
+                width: 1rem;
+                height: 1rem;
+                float: right;
+            }   
+            }
+        }
+    }
+

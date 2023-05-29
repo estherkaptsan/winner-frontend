@@ -1,0 +1,26 @@
+.categories-list {
+
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: macan-regular;
+    font-size: rem(16px);
+    transition: 0.7s ease;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+    
+    a {
+        transition: transform 0.2s, -webkit-transform 0.2s;
+        color: $clr1;
+        text-decoration: none;
+        padding-block: rem(8px);
+        line-height: rem(24px);
+    }
+
+    a:hover {
+        box-shadow: 0 -3px $clr0 inset;
+    }
+}
+

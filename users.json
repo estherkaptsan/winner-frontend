@@ -1,0 +1,26 @@
+[
+    {
+        "fullname": "Varun Davera",
+        "username":"varun",
+        "password": "111",
+        "imgUrl": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/0e80055d93fad68d0f6abc465fec8fab-1670493288297/7f6eff4a-186e-4879-9034-a3b4253abf20.jpg" 
+    },
+    {
+        "fullname": "radioice",
+        "username":"radioice",
+        "password": "111",
+        "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/d098c50d82476b11568f3a50111a8a89-1636128369729/ef737ebd-6908-47bc-be50-963dabe16d0e.jpg" 
+    },
+    {
+        "fullname": "koala fication",
+        "username":"koala",
+        "password": "111",
+        "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/9011893847add9cba5ee7f0ae7724325-1524074777315/ffd3f7db-d7c8-4184-a444-7cbdafcfbcc5.png" 
+    },
+    {
+        "fullname": "eli gal",
+        "username":"elis",
+        "password": "111",
+        "imgUrl": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/5f51f3fb29a56b4a4f692ae6b900bacf-1579009817378/e657cbc7-93e6-4869-a7c5-694251cd559e.JPG"
+    }
+]

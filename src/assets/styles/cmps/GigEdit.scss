@@ -1,0 +1,183 @@
+.gig-edit {
+    background-color: #f7f7f7;
+}
+
+
+.gig-edit form {
+    background-color: #fff;
+    width: 772px;
+    height: fit-content;
+
+
+    padding: 30px;
+    margin: 30px auto;
+}
+
+.gig-edit form .top-form {
+    margin-bottom: 50px;
+
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.gig-edit form .top-form label {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.gig-edit form span {
+    width: 200px;
+    flex-shrink: 0;
+    font-weight: 600;
+    color: #404145;
+    padding-top: 10px;
+}
+
+span,
+a,
+p {
+    font-family: Macan-Regular;
+}
+
+
+.gig-edit form span p {
+    margin-top: 10px;
+    font-size: .8rem;
+    color: #828385;
+    font-family: Macan-Regular;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+.gig-edit form input {
+    height: 64px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.12em;
+}
+
+.gig-edit form input,
+.gig-edit form textarea,
+.gig-edit form select {
+    color: #404145;
+}
+
+.gig-edit form .top-form label {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+
+.gig-edit form .top-form input,
+.gig-edit form .top-form textarea {
+    border: 1px solid rgba(0, 0, 0, .274);
+    border-radius: 4px;
+}
+
+
+.gig-edit form textarea {
+    width: 100%;
+    height: 217px;
+    padding: 10px;
+    font-family: Macan-Regular;
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+.gig-edit form .top-form label {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.gig-edit form .bottom-form {
+    margin-bottom: 50px;
+}
+
+.gig-edit .btns {
+    margin: auto auto 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+.gig-edit .btns .cancel-btn {
+    // border: 0px solid $clr-2;
+    background-color: $clr-2 ;
+    color: $clr13 ;
+}
+
+.gig-edit .btns button {
+    height: rem(45px);
+    border-radius: rem(4px);
+    font-family: macan-regular;
+    font-size: 1rem;
+    padding: 15px 24px;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+}
+
+.gig-edit .btns .save-btn {
+    background-color: $clr5;
+    border: none;
+    color: #fff;
+}
+
+.gig-edit .btns .save-btn:hover {
+    background-color: #404145;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .gig-edit form {
+        width: 90%;
+    }
+
+    .bottom-form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .title,
+    .description {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+}
+
+
+.price-input {
+    // height: 13px;
+    margin-top: 21px;
+}
+
+.gig-edit form .bottom-form select,
+.gig-edit form .bottom-form input {
+    height: rem(44px);
+    border: 1px solid rgba(0, 0, 0, .274);
+    font-size: 1rem;
+    // height: 64px;
+    padding: 10px;
+}

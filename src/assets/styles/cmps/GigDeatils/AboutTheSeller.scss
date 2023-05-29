@@ -1,0 +1,164 @@
+//ABOUT THE SELLER//
+.seller-preview {
+    h2 {
+        padding-block-end: rem(25px);
+        font-size: 1.25rem;
+        line-height: 1.4em;
+        font-weight: 700;
+        color: $clr13;
+    }
+}
+
+.seller-preview-long {
+    margin-block-end: rem(24px);
+    font-size: rem(16px);
+
+    .img-container {
+        height: rem(110px);
+        width: rem(110px);
+    }
+
+    img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .seller-details {
+        padding-inline-start: 0.9375em;
+
+        .seller-username {
+            color: $clr1;
+            cursor: pointer;
+            font-weight: 700;
+            line-height: 1.25em;
+            padding-block-end: 0.3125em;
+
+        }
+
+        .online-indicator {
+            border: 1px solid $clr0;
+            color: $clr0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-inline-start: rem(30px);
+            border-radius: 0.75em;
+            margin-block-end: 0.3125em;
+            padding: 0 0.625em;
+
+            p {
+                line-height: 1.125em;
+                font-size: .875rem;
+                margin-block-start: 0.2142857143em;
+            }
+
+            svg {
+                float: left;
+                height: 100%;
+            }
+
+            span {
+                width: rem(4px);
+                height: rem(4px);
+                padding-inline-end: 0.5em;
+                vertical-align: middle;
+            }
+
+        }
+
+        .seller-level {
+            color: $clr1;
+            font-weight: 400;
+            line-height: 130%;
+        }
+
+        .seller-reviews-stat {
+            font-size: .875rem;
+            line-height: 1.5em;
+            margin-block-start: rem(5px);
+
+            >p {
+                padding-block-start: 0.1428571429em
+            }
+        }
+
+        .seller-reviews-count {
+            padding-inline-start: 0.2857142857em;
+            padding-block-end: rem(2px);
+        }
+
+        .stars {
+            margin-block-start: rem(-1px);
+
+            svg {
+                fill: $clr8;
+            }
+        }
+
+        .stars>* {
+            padding-inline-start: rem(2px)
+        }
+
+        .rate-score {
+            color: $clr8;
+            font-weight: 600;
+            padding-inline-start: 0.2857142857em;
+        }
+    }
+
+}
+
+.contact-me-btn {
+    padding: 0.8571428571em 1.7142857143em;
+    margin-block-start: rem(20px);
+    font-size: .875rem;
+    color: $clr1;
+    cursor: pointer;
+    width: auto;
+    background: none;
+    font-weight: 600;
+    line-height: 100%;
+    border: rem(1px) solid $clr1;
+    border-radius: 0.2857142857em;
+    max-width: rem(130px);
+}
+
+.seller-details-container {
+    border: rem(1px) solid $clr14;
+    border-radius: 0.1875em;
+    padding: 1.5em;
+    margin-block-end: rem(64px);
+    color: $clr4;
+
+    .seller-desc {
+        border-top: rem(1px) solid $clr14;
+        line-height: 150%;
+        padding-block-start: 0.9375em;
+        p{
+            font-size: rem(16px);   
+        }
+    }
+
+    .seller-stat>ul {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .key {
+            font-size: rem(16px);
+            padding-block-end: 0.25em;
+        }
+
+        .value {
+            font-size: rem(16px);
+            font-weight: 700;
+        }
+    }
+
+    .seller-stat>ul>li {
+        padding-block-end: 1em;
+    }
+
+}
